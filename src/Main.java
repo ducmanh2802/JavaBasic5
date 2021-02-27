@@ -31,6 +31,8 @@ public class Main {
                 int soLoiPhatHien = sc.nextInt();
                 KiemChungVien kcv = new KiemChungVien(maNV, hoTen, tuoi, soDienThoai, email, luongCoBan, soLoiPhatHien);
                 kcv.display();
+            } else {
+                System.out.println("Hiện tại hệ thống chỉ hỗ trợ lập trình viên và kiểm chứng viên!");
             }
         }
         sc.close();
